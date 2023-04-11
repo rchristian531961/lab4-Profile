@@ -1,0 +1,25 @@
+/*My stylesheet*/
+/*Establishing a vertical navigation bar below.*/
+
+.main-nav li{
+    width:150px;
+}
+
+.main-nav a{
+    text-decoration:none;
+    color:green;
+    font-size:25px;
+    font-weight:600;
+    
+}
+
+.main-nav a:hover{
+    text-decoration:underline;
+}
+
+.main-nav ul{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
