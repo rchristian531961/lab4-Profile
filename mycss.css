@@ -19,19 +19,33 @@
     /* align-content:center;  */
 }
 
-.right{
-    flex:1;
-    background-color:red;
-}
-/*End of container class*/
-
 left ul, li{
     list-style:none;
     /* text-align: center; */
     padding:10px;
 }
 
-left img{
+.right{
+    flex:1;
+
+    /* background-color:white; */
+}
+/*End of container class*/
+
+.container-1{
+    background-color:rgb(21, 255, 0);
+    flex-wrap:wrap;
     
 }
+
+.myImg{
+    float:left;
+    overflow:hidden;
+    max-width:100%;
+    height:auto;
+}
+
+
+
+/*Headings*/
 
