@@ -4,16 +4,33 @@
 .container{
     display:flex;
     height:100vh;
+    width:auto;
     background:lightblue;
 }
 
 .left{
-    flex:0.20;
-    justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    max-height:100vh;
     background-color:black;
+    justify-content:space-around;
+     /* justify-content: center;  */
+    /* align-content:center; */
 }
 
 .right{
     flex:1;
-    background-color:red;}
+    background-color:red;
+}
+/*End of container class*/
+
+left ul, li{
+    list-style:none;
+    text-align: center;
+    padding:10px;
+}
+
+left img{
+    
+}
+
