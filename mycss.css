@@ -10,12 +10,13 @@
 
 .left{
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     max-height:100vh;
     background-color:black;
-    justify-content:space-around;
-     /* justify-content: center;  */
-    /* align-content:center; */
+    text-align: center; 
+    /* justify-content:space-around; */
+    /* justify-content: center;  */
+    /* align-content:center;  */
 }
 
 .right{
@@ -26,7 +27,7 @@
 
 left ul, li{
     list-style:none;
-    text-align: center;
+    /* text-align: center; */
     padding:10px;
 }
 
