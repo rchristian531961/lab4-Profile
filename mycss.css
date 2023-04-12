@@ -1,60 +1,19 @@
 /*My style-sheet*/
 
-/*Establishing a vertical navigation bar below.*/
-body{
-    margin:0;
-}
-
-nav{ /*Established the navigation page*/
-    position:fixed;
-    background:#ddd;
-    padding:10px;
-    max-width:20%;
-    height:100%;
+/*Full Container class established*/
+.container{
     display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    align-items:center;
+    height:100vh;
+    background:lightblue;
 }
 
-ul{  /*established the ul for list items*/
-    list-style:none;
-    padding-left:0;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
+.left{
+    flex:0.20;
+    justify-content: center;
+    flex-direction: column;
+    background-color:black;
 }
 
-li{
-    margin:20px 0; /*Giving space between list items using (margin) tag*/
-}
-
-#media-links{
-    list-style:none;
-    padding-left:0;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    margin-bottom:auto;
-}
-/*Completed the navigation*/
-
-/*Professional image class */
-nav img{
-    max-width:70%;
-    height:auto;
-    border-radius:15%;
-}
-
-/*established the basics for each section*/
-section{
-    margin-left:25%;
-}
-
-/*Completed sections*/
-
-
-
-
+.right{
+    flex:1;
+    background-color:red;}
