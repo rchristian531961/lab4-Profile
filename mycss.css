@@ -12,17 +12,17 @@
     flex-direction: column;
     flex-wrap: wrap; 
     max-height:100vh;
-    background-color:black;
+    max-width:25vh;
+    background-color:pink;
     text-align: center; 
     /* justify-content:space-around; */
     /* justify-content: center;  */
     /* align-content:center;  */
 }
 
-left ul, li{
+left ul, li{/**/
+    text-align:center;
     list-style:none;
-    /* text-align: center; */
-    padding:10px;
 }
 
 .right{
@@ -35,13 +35,11 @@ left ul, li{
 .container-1{
     background-color:rgb(21, 255, 0);
     flex-wrap:wrap;
-    
 }
 
 .myImg{
-    float:left;
     overflow:hidden;
-    max-width:100%;
+    max-width:50%;
     height:auto;
 }
 
